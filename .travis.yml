@@ -4,9 +4,9 @@ arch:
 language: node_js
 
 node_js:
+  - '11'
+  - '12'
   - '13'
-  - '14'
-  - '15'
 
 before_install:
   - if [[ `npm -v` != 6* ]]; then npm install -g npm@6; fi
